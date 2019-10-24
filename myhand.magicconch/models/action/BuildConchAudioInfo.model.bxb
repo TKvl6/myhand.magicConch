@@ -1,0 +1,15 @@
+action (BuildConchAudioInfo) {
+  type (Search)
+  collect {
+    input (conchAudio) {
+      type (ConchAudio)
+      min (Required) max (Many)
+      default-init {
+        intent {
+          goal: FindConch
+        }
+      }
+    }
+  }
+  output (audioPlayer.AudioInfo)
+}

@@ -1,0 +1,31 @@
+// To play audio, there is a two step process
+// First create the playlist (done via meowToPlay below)
+// Second, pass the playlist to the audioPlayer (done via meow below)
+action (PlayConch) {
+  type (Search)
+  collect {
+    input (conchToPlay) {
+      description (Create the playlist to play)
+      type (audioPlayer.AudioInfo)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: BuildConchAudioInfo
+        } 
+      }
+      hidden     
+    }
+
+    computed-input (conch) {
+      type (audioPlayer.Result)
+      compute {
+        intent {
+          goal: audioPlayer.PlayAudio
+          value: $expr(conchToPlay)
+        }
+      }
+      hidden
+    }
+  }
+  output (Result)
+}

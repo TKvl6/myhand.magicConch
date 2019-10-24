@@ -1,0 +1,15 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (PlayConch) {
+      local-endpoint (PlayConch.js)
+    }
+    action-endpoint (BuildConchAudioInfo) {
+      accepted-inputs (conchAudio)
+      local-endpoint (BuildConchAudioInfo.js)
+    }
+    action-endpoint (FindConch) {
+      accepted-inputs (searchTerm)
+      local-endpoint (FindConch.js)
+    }
+  }
+}

@@ -10,4 +10,10 @@ capsule {
     modern-prompt-rejection
     support-halt-effect-in-computed-inputs
   }
+  capsule-imports {
+    import (bixby.audioPlayer) {
+      version (0.3.13)
+      as (audioPlayer)
+    }
+  }
 }
