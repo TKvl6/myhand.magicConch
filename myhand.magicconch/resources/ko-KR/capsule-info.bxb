@@ -1,12 +1,15 @@
 capsule-info {
-  display-name (Meow Audio Player Sample Capsule)
-  dispatch-name (Meow Audio Player Sample Capsule)
-  developer-name (Bixby Sample Capsules)
+  display-name (마법의소라고동)
+  developer-name (SSAFY MH)
   icon-asset (/images/bixby-logo.png)
-  description ("A sample capsule to demonstrate using audio player.")
+  description ("마법의 소라고동이 당신의 고민을 해결해줍니다!")
   website-url (https://bixbydevelopers.com/dev/docs/sample-capsules/samples)
   search-keywords {
-    keyword (sample capsule)
-    keyword (audio player)
+    keyword (마법의소라고동)
+    keyword (고민해결)
+  }
+  dispatch-name (마법의소라고동)
+  dispatch-aliases{
+
   }
 }

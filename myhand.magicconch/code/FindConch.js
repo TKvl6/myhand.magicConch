@@ -1,4 +1,4 @@
-var meowAudio = require('./conchAudio.js')
+var conchAudio = require('./conchAudio.js')
 
 module.exports.function = function findMeow(searchTerm) {
     const keysToSearchOn = ['title', 'artist', 'subtitle', 'albumName']
@@ -12,7 +12,7 @@ module.exports.function = function findMeow(searchTerm) {
             })
         })
     } else {
-        conchAudioFound = meowAudio.audioItems
+        conchAudioFound = conchAudio.audioItems
     }
     return conchAudioFound
 }

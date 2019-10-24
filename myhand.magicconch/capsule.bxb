@@ -6,9 +6,12 @@ capsule {
     target (bixby-mobile-ko-KR)
   }
   runtime-flags {
-    concepts-inherit-super-type-features
-    modern-prompt-rejection
     support-halt-effect-in-computed-inputs
+    modern-prompt-rejection
+    concepts-inherit-super-type-features
+    no-filtering-with-validation
+    modern-default-view-behavior
+    use-input-views-for-selection-list-detail
   }
   capsule-imports {
     import (bixby.audioPlayer) {
