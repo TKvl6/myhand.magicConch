@@ -11,7 +11,8 @@ const audioItems = [
     artist: '마법의 소라고동님',
     subtitle: "Meow meow meow.",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
+    desc: "소라고동님이 안된다 하시네요! 절대 하면 안돼요..!",
   },
   {
     id: 2,
@@ -25,7 +26,8 @@ const audioItems = [
     artist: '마법의 소라고동님',
     subtitle: "Meow meow meow.",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
+    desc: "소라고동님이 안된다 하시네요! 절대 하면 안돼요..!",
   },
   {
     id: 3,
@@ -39,7 +41,8 @@ const audioItems = [
     artist: '마법의 소라고동님',
     subtitle: "Meow meow meow.",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
+    desc: "소라고동님이 안된다 하시네요! 절대 하면 안돼요..!",
   },
   {
     id: 4,
@@ -53,7 +56,8 @@ const audioItems = [
     artist: '마법의 소라고동님',
     subtitle: "Meow meow meow.",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
+    desc: "소라고동님이 안된다 하시네요! 절대 하면 안돼요..!",
   },
   {
     id: 5,
@@ -67,7 +71,8 @@ const audioItems = [
     artist: '마법의 소라고동님',
     subtitle: "Meow meow meow.",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
+    desc: "소라고동님이 안된다 하시네요! 절대 하면 안돼요..!",
   },
   {
     id: 6,
@@ -81,7 +86,8 @@ const audioItems = [
     artist: '마법의 소라고동님',
     subtitle: "Meow meow meow.",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
+    desc: "소라고동님이 안된다 하시네요! 절대 하면 안돼요..!",
   },
   {
     id: 7,
@@ -95,7 +101,8 @@ const audioItems = [
     artist: '마법의 소라고동님',
     subtitle: "Meow meow meow.",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
+    desc: "소라고동님이 안된다 하시네요! 절대 하면 안돼요..!",
   },
   {
     id: 8,
@@ -109,7 +116,8 @@ const audioItems = [
     artist: '마법의 소라고동님',
     subtitle: "Meow meow meow.",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
+    desc: "소라고동님이 안된다 하시네요! 절대 하면 안돼요..!",
   },
   {
     id: 9,
@@ -123,7 +131,8 @@ const audioItems = [
     artist: '마법의 소라고동님',
     subtitle: "Meow meow meow.",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
+    desc: "소라고동님이 안된다 하시네요! 절대 하면 안돼요..!",
   },
   {
     id: 10,
@@ -137,7 +146,8 @@ const audioItems = [
     artist: '마법의 소라고동님',
     subtitle: "Meow meow meow.",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
+    desc: "소라고동님이 안된다 하시네요! 절대 하면 안돼요..!",
   },
   {
     id: 11,
@@ -151,7 +161,8 @@ const audioItems = [
     artist: '마법의 소라고동님',
     subtitle: "Meow meow meow.",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
+    desc: "소라고동님이 안된다 하시네요! 절대 하면 안돼요..!",
   },
   {
     id: 12,
@@ -165,7 +176,8 @@ const audioItems = [
     artist: '마법의 소라고동님',
     subtitle: "Meow meow meow.",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
+    desc: "소라고동님이 안된다 하시네요! 절대 하면 안돼요..!",
   }
 ]
 
