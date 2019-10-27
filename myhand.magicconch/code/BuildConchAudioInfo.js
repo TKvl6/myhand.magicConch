@@ -1,6 +1,8 @@
-module.exports.function = function buildMeowAudioInfo(meowAudio) {
-  var audioInfo = {};
+var console = require('console')
 
+module.exports.function = function buildMeowAudioInfo(conchAudio) {
+  var audioInfo = {};
+  console.log(conchAudio + "conchAudio")
   /* Since meowAudio are already in audioItem format this mapping is not necessary, but
   this demonstrates how to build the right structure for audioItem and audioInfo */
   audioInfo.audioItem = conchAudio.map(function (audioItem) {
@@ -23,10 +25,9 @@ module.exports.function = function buildMeowAudioInfo(meowAudio) {
     }
     return audioItemStructure
   });
-
-  audioInfo.category = '';
-  audioInfo.displayName = '';
-  audioInfo.repeatMode = '';
+  audioInfo.category = 'RADIO';
+  audioInfo.displayName = 'Conch Capsule';
+  audioInfo.repeatMode = 'OFF';
   audioInfo.doNotWaitForTTS = false;
 
   return audioInfo;

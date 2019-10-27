@@ -1,7 +1,7 @@
 var conchAudio = require('./conchAudio.js')
 var console = require('console')
 
-module.exports.function = function findMeow(searchTerm) {
+module.exports.function = function findConch(searchTerm) {
   const keysToSearchOn = ['title', 'artist', 'subtitle', 'albumName']
   let conchAudioFound = []
   var decisionVal = 0;
@@ -11,6 +11,7 @@ module.exports.function = function findMeow(searchTerm) {
     for (let i = 0; i < searchTerm.length; i++) {
       decisionVal += searchTerm.charCodeAt(i)
     }
+    decisionVal += doRandom(0, decisionVal)
     decisionVal %= conchAudio.audioItems.length;
   } 
   else {
@@ -18,7 +19,8 @@ module.exports.function = function findMeow(searchTerm) {
   }
   
   console.log("decisionVal : " + decisionVal)
-  return conchAudio[decisionVal]
+  console.log([conchAudio[decisionVal]])
+  return [conchAudio.audioItems[decisionVal]]
 }
 
 var doRandom = function (min, max) {
