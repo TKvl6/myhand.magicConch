@@ -1,3 +1,5 @@
-module.exports.function = function playConch () {
-  return 'Conch';
+module.exports.function = function playConch (conchToPlay) {
+  var console = require('console')
+
+  return conchToPlay;
 }

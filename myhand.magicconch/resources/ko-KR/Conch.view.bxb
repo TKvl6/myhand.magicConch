@@ -1,31 +1,32 @@
-// result-view {
-//   // match : audioPlayer.Result (this)
+result-view {
+  match : ConchAudioInfo (this)
     
-//   message {
-//     // 결과 화면에 보여줄 dialog를 설정합니다.
-//     // if(this.audioItem.id < 3){
-//     //   template ("돼")
-//     // }else{
-//     //   template ("안돼")
-//     // }
-//     template (this)
-//   }
-//   // render {
-//   //     layout {
-//   //       section {
-//   //         content {
-//   //           image {
-//   //             // url ("이미지~~~~")
-//   //             url ("")
-//   //           }
-//   //           single-line {
-//   //             text {
-//   //               style (Title_M)
-//   //               value ("#{value(this.desc)}")
-//   //           }
-//   //         }
-//   //       }
-//   //     }
-//   //   }
-//   // }
-// }
+  message {
+    ///////////////////////
+    //      수정 필요     //
+    ///////////////////////
+    if(this.audioItem.id < 3){
+      template ("돼")
+    }else{
+      template ("안돼")
+    }
+  }
+  render {
+      layout {
+        section {
+          content {
+            image {
+              // url ("이미지~~~~")
+              url ("")
+            }
+            single-line {
+              text {
+                style (Title_S)
+                value ("#{value(this.desc)}")
+            }
+          }
+        }
+      }
+    }
+  }
+}

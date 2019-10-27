@@ -6,14 +6,13 @@ action (PlayConch) {
   collect {
     input (conchToPlay) {
       description (Create the playlist to play)
-      type (audioPlayer.AudioInfo)
+      type (ConchAudioInfo)
       min (Required) max (One)
       default-init {
         intent {
           goal: BuildConchAudioInfo
         } 
       }
-      hidden     
     }
 
     computed-input (conch) {
@@ -27,5 +26,5 @@ action (PlayConch) {
       hidden
     }
   }
-  output (Result)
+  output (ConchAudioInfo)
 }

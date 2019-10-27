@@ -1,6 +1,7 @@
 endpoints {
   action-endpoints {
     action-endpoint (PlayConch) {
+      accepted-inputs (conchToPlay)
       local-endpoint (PlayConch.js)
     }
     action-endpoint (BuildConchAudioInfo) {
