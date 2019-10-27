@@ -8,8 +8,11 @@ endpoints {
       accepted-inputs (conchAudio)
       local-endpoint (BuildConchAudioInfo.js)
     }
+    // action-endpoint (FindConch) {
+    //   accepted-inputs (searchTerm)
+    //   local-endpoint (FindConch.js)
+    // }
     action-endpoint (FindConch) {
-      accepted-inputs (searchTerm)
       local-endpoint (FindConch.js)
     }
   }

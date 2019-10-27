@@ -1,0 +1,10 @@
+train (t-lbdgihv4x0uj4dvj37zn4r4cf) {
+  utterance ("[g:PlayConch] (고기)[v:SearchTerm]를 먹어도 되요?")
+  plan (Y2BnUMitzEjMS9HLTUzPTE7Oz0vO0HMGkY6lKZn5nnlp+QzSmCoCchIrwaqI0K6KqcKpNDMnBU2ZDD6DsLnBLTMPYgY2rcGpiUXJGSGpRbkMbAyMDEwMzAwsDKxANgMSjxHMg2AGoCgjSB4A)
+  last-modified (1572193908686)
+}
+train (t-ld6bty8hptxf1333i8m5rq7sd) {
+  utterance ("[g:PlayConch] (공부)[v:SearchTerm]를 할까요?")
+  plan (Y2BnUMitzEjMS9HLTUzPTE7Oz0vO0HMGkY6lKZn5nnlp+QzSmCoCchIrwaqI0K6KqcKpNDMnBU2ZDD6DsLnBLTMPYgY2rcGpiUXJGSGpRbkMbAyMDEwMzAwsDKxANgMSjxHMg2AGoCgjSB4A)
+  last-modified (1572193720828)
+}
