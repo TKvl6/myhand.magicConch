@@ -18,8 +18,6 @@ module.exports.function = function findConch(searchTerm) {
     decisionVal = doRandom(0, conchAudio.audioItems.length)
   }
   
-  console.log("decisionVal : " + decisionVal)
-  console.log([conchAudio.audioItems[decisionVal]])
   return [conchAudio.audioItems[decisionVal]]
 }
 

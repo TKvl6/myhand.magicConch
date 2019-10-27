@@ -12,5 +12,5 @@ action (BuildConchAudioInfo) {
       }
     }
   }
-  output (audioPlayer.AudioInfo)
+  output (ConchAudioInfo)
 }

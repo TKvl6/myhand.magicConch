@@ -1,7 +1,3 @@
 structure (ConchAudio) {
-  extends (audioPlayer.AudioItem)
-  property (desc){
-    type (Desc)
-    min (Optional) max (One)
-  }
+  role-of (audioPlayer.AudioItem)
 }

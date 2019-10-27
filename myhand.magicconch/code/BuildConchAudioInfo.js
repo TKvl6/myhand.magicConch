@@ -11,7 +11,8 @@ module.exports.function = function buildMeowAudioInfo(conchAudio) {
       stream: audioItem.stream,
       title: audioItem.title,
       artist:audioItem.artist,
-      albumArtUrl: audioItem.albumArtUrl
+      albumArtUrl: audioItem.albumArtUrl,
+      desc : audioItem.desc
     }
     //optional properties of audioItem
     if (audioItem.subtitle) {
@@ -23,13 +24,18 @@ module.exports.function = function buildMeowAudioInfo(conchAudio) {
     if (audioItem.duration) {
       audioItemStructure.duration = audioItem.duration
     }
+    if (audioItem.desc) {
+      audioItemStructure.desc = audioItem.desc
+    }
     return audioItemStructure
   });
   audioInfo.category = 'RADIO';
   audioInfo.displayName = 'Conch Capsule';
   audioInfo.repeatMode = 'OFF';
   audioInfo.doNotWaitForTTS = false;
-
+  var desc = "소라고동님이 안된다 하시네요! 절대 하면 안돼요..!";
+  audioInfo.desc = desc;
+  console.log(audioInfo)
   return audioInfo;
 }
 

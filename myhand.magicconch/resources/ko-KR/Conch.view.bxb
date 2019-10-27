@@ -1,28 +1,31 @@
-result-view {
-  match : ConchAudio(this){
-    from-output : FindConch
-  }
-  message {
-    // 결과 화면에 보여줄 dialog를 설정합니다.
-    template ("#{value(this.desc)}")
-  }
-  render {
-      layout {
-        section {
-          content {
-            image {
-              // url ("이미지~~~~")
-              url ("")
-            }
-            single-line {
-              text {
-                style (Title_M)
-                value ("#{value(this.desc)}")
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
+// result-view {
+//   // match : audioPlayer.Result (this)
+    
+//   message {
+//     // 결과 화면에 보여줄 dialog를 설정합니다.
+//     // if(this.audioItem.id < 3){
+//     //   template ("돼")
+//     // }else{
+//     //   template ("안돼")
+//     // }
+//     template (this)
+//   }
+//   // render {
+//   //     layout {
+//   //       section {
+//   //         content {
+//   //           image {
+//   //             // url ("이미지~~~~")
+//   //             url ("")
+//   //           }
+//   //           single-line {
+//   //             text {
+//   //               style (Title_M)
+//   //               value ("#{value(this.desc)}")
+//   //           }
+//   //         }
+//   //       }
+//   //     }
+//   //   }
+//   // }
+// }
