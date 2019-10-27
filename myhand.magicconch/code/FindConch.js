@@ -19,7 +19,7 @@ module.exports.function = function findConch(searchTerm) {
   }
   
   console.log("decisionVal : " + decisionVal)
-  console.log([conchAudio[decisionVal]])
+  console.log([conchAudio.audioItems[decisionVal]])
   return [conchAudio.audioItems[decisionVal]]
 }
 
