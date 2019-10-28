@@ -32,9 +32,8 @@ module.exports.function = function buildMeowAudioInfo(conchAudio) {
   audioInfo.category = 'RADIO';
   audioInfo.displayName = 'Conch Capsule';
   audioInfo.repeatMode = 'OFF';
-  audioInfo.doNotWaitForTTS = false;
-  var desc = "소라고동님이 안된다 하시네요! 절대 하면 안돼요..!";
-  audioInfo.desc = desc;
+  audioInfo.doNotWaitForTTS = true;
+
   console.log(audioInfo)
   return audioInfo;
 }

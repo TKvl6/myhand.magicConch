@@ -1,35 +1,26 @@
 result-view {
 	match : ConchAudioInfo (this)
-	
+
 	message {
 		///////////////////////
 		//      수정 필요     //
 		///////////////////////
 		
 		if(this.audioItem.id == 1){
-			template ("\"돼\""){
-				speech ()
-			}
+			template ()
+			template ("\"돼\"")
 		}
 		else-if (this.audioItem.id == 2){
-			template ("\"언젠가는 되겠지\""){
-				speech ()
-			}
+			template ("\"언젠가는 되겠지\"")
 		}
 		else-if (this.audioItem.id == 3){
-			template ("\"다시 한번 물어봐\""){
-				speech ()
-			}
+			template ("\"다시 한번 물어봐\"")
 		}
 		else-if (this.audioItem.id == 4){
-			template ("\"안\t\t돼\"" ){
-				speech ()
-			}
+			template ("\"안\t\t돼\"" )
 		}
 		else{
-			template ("\"안 돼\""){
-				speech ()
-			}
+			template ("\"안 돼\"")
 		}
 	}
 	render {
@@ -99,6 +90,12 @@ result-view {
 							paragraph{
 								style(Title_M)
 								value ("가만히\n...")
+							}
+						}
+						default{
+							paragraph{
+								style(Title_M)
+								value ("모지")
 							}
 						}
 					}
