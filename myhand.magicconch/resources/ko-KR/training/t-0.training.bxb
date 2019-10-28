@@ -1,5 +1,5 @@
 train (t-0zsny0qlbvc8kiwflwc9rwmqe) {
-  utterance ("[g:myhand.magicconch.PlayConch] (고백)[v:myhand.magicconch.SearchTerm]을 해도 될까요?")
+  utterance ("[g:PlayConch] (고백)[v:SearchTerm]을 해도 될까요")
   plan (Y2BnUMitzEjMS9HLTUzPTE7Oz0vO0HMGkY6lKZn5nnlp+QzSmCoCchIrwaqI0K6KqcKpNDMnBU2ZDD6DsLnBLTMPYgY2rcGpiUXJGSGpRbkMbAyMDEwMzAwsDKxANgMSjxHMg2AGoCgjSB4A)
-  last-modified (1572193822103)
+  last-modified (1572236127180)
 }

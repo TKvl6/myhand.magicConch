@@ -1,10 +1,10 @@
 train (t-ffk8d6s3d1autmjoxvpiviqb5) {
-  utterance ("[g:PlayConch] (나중)[v:SearchTerm]에 해도 될까?")
+  utterance ("[g:PlayConch] (나중)[v:SearchTerm]에 해도 될까")
   plan (Y2BnUMitzEjMS9HLTUzPTE7Oz0vO0HMGkY6lKZn5nnlp+QzSmCoCchIrwaqI0K6KqcKpNDMnBU2ZDD6DsLnBLTMPYgY2rcGpiUXJGSGpRbkMbAyMDEwMzAwsDKxANgMSjxHMg2AGoCgjSB4A)
-  last-modified (1572194001243)
+  last-modified (1572236134267)
 }
 train (t-frkh50j3obmt9a2b7nsptub0d) {
   utterance ([g:PlayConch] 하지 말자)
   plan (Y2BmUMitzEjMS9HLTUzPTE7Oz0vO0HMGkY6lKZn5nnlp+QzSmCoCchIrwaqI0M7EwAjEDECSkYEBRgMA)
-  last-modified (1572194027784)
+  last-modified (1572236136437)
 }

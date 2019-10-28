@@ -1,10 +1,10 @@
 train (t-u42rxi80qn17gnrxwml8pbdg1) {
-  utterance ("[g:PlayConch] (똥)[v:SearchTerm]을 먹어도 될까요?")
+  utterance ("[g:PlayConch] (똥)[v:SearchTerm]을 먹어도 될까요")
   plan (Y2BnUMitzEjMS9HLTUzPTE7Oz0vO0HMGkY6lKZn5nnlp+QzSmCoCchIrwaqI0K6KqcKpNDMnBU2ZDD6DsLnBLTMPYgY2rcGpiUXJGSGpRbkMbAyMDEwMzAwsDKxANgMSjxHMg2AGoCgjSB4A)
-  last-modified (1572193778653)
+  last-modified (1572236167946)
 }
 train (t-upxiuwl1frmxrpmgfgs3rdi5c) {
-  utterance ("[g:PlayConch] (사랑)[v:SearchTerm] 해도 될까요?")
+  utterance ("[g:PlayConch] (사랑)[v:SearchTerm] 해도 될까요")
   plan (Y2BnUMitzEjMS9HLTUzPTE7Oz0vO0HMGkY6lKZn5nnlp+QzSmCoCchIrwaqI0K6KqcKpNDMnBU2ZDD6DsLnBLTMPYgY2rcGpiUXJGSGpRbkMbAyMDEwMzAwsDKxANgMSjxHMg2AGoCgjSB4A)
-  last-modified (1572193842570)
+  last-modified (1572236164443)
 }

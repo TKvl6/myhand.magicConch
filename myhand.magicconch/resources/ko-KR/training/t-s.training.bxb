@@ -1,5 +1,5 @@
 train (t-sao043p8d7j4gcvocufpun3rb) {
-  utterance ("[g:PlayConch] (고기)[v:SearchTerm] 먹어도 될까?")
+  utterance ("[g:PlayConch] (고기)[v:SearchTerm] 먹어도 될까")
   plan (Y2BnUMitzEjMS9HLTUzPTE7Oz0vO0HMGkY6lKZn5nnlp+QzSmCoCchIrwaqI0K6KqcKpNDMnBU2ZDD6DsLnBLTMPYgY2rcGpiUXJGSGpRbkMbAyMDEwMzAwsDKxANgMSjxHMg2AGoCgjSB4A)
-  last-modified (1572193949313)
+  last-modified (1572236107771)
 }

@@ -1,7 +1,7 @@
 train (t-y8p60v6o5ltxaf3horkjz1p4u) {
-  utterance ("[g:PlayConch] (똥)[v:SearchTerm]을 쌀까요?")
+  utterance ("[g:PlayConch] (똥)[v:SearchTerm]을 쌀까요")
   plan (Y2BnUMitzEjMS9HLTUzPTE7Oz0vO0HMGkY6lKZn5nnlp+QzSmCoCchIrwaqI0K6KqcKpNDMnBU2ZDD6DsLnBLTMPYgY2rcGpiUXJGSGpRbkMbAyMDEwMzAwsDKxANgMSjxHMg2AGoCgjSB4A)
-  last-modified (1572193752765)
+  last-modified (1572236166675)
 }
 train (t-yllpy06ld7qh4sit9mj7sd816) {
   utterance ("[g:PlayConch] (사랑)[v:SearchTerm]을 해도 될까요?")

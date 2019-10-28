@@ -1,3 +1,6 @@
 structure (ConchAudio) {
-  role-of (audioPlayer.AudioItem)
+	role-of (audioPlayer.AudioItem)
+	features{
+		transient
+	}
 }

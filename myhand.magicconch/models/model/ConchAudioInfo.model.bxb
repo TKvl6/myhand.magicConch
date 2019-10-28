@@ -1,7 +1,10 @@
 structure (ConchAudioInfo) {
-  extends (audioPlayer.AudioInfo)
-  property (desc){
-    type (Desc)
-    min (Optional) max (One)
-  }
+	extends (audioPlayer.AudioInfo)
+	property (desc){
+		type (Desc)
+		min (Optional) max (One)
+	}
+	features{
+		transient
+	}
 }

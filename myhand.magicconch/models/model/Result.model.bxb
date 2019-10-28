@@ -1,3 +1,6 @@
 text (Result) {
-  description (For confirmation on whether audio was played successfully or not)
+	description (For confirmation on whether audio was played successfully or not)
+	features{
+		transient
+	}
 }

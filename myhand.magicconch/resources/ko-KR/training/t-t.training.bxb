@@ -1,20 +1,20 @@
 train (t-ti87dniewanasviy5lhmh2svq) {
-  utterance ([g:PlayConch] 이걸 해도 되나?)
+  utterance ([g:PlayConch] 이걸 해도 되나)
   plan (Y2BmUMitzEjMS9HLTUzPTE7Oz0vO0HMGkY6lKZn5nnlp+QzSmCoCchIrwaqI0M7EwAjEDECSkYEBRgMA)
-  last-modified (1572192133732)
+  last-modified (1572236113234)
 }
 train (t-tkyavy0fu023av27967fb9kq0) {
-  utterance ("[g:PlayConch] (고기)[v:SearchTerm] 먹어도 되요?")
+  utterance ("[g:PlayConch] (고기)[v:SearchTerm] 먹어도 되요")
   plan (Y2BnUMitzEjMS9HLTUzPTE7Oz0vO0HMGkY6lKZn5nnlp+QzSmCoCchIrwaqI0K6KqcKpNDMnBU2ZDD6DsLnBLTMPYgY2rcGpiUXJGSGpRbkMbAyMDEwMzAwsDKxANgMSjxHMg2AGoCgjSB4A)
-  last-modified (1572193889807)
+  last-modified (1572236119547)
 }
 train (t-tq2wiyydblyc3ccaho14f8lbu) {
-  utterance ("[g:PlayConch] (고기)[v:SearchTerm]를 먹어도 될까요?")
+  utterance ("[g:PlayConch] (고기)[v:SearchTerm]를 먹어도 될까요")
   plan (Y2BnUMitzEjMS9HLTUzPTE7Oz0vO0HMGkY6lKZn5nnlp+QzSmCoCchIrwaqI0K6KqcKpNDMnBU2ZDD6DsLnBLTMPYgY2rcGpiUXJGSGpRbkMbAyMDEwMzAwsDKxANgMSjxHMg2AGoCgjSB4A)
-  last-modified (1572193926509)
+  last-modified (1572236153499)
 }
 train (t-tzj7plg149h3jwha3s5izvqeq) {
-  utterance ("[g:PlayConch] 지금 (롤 한판)[v:SearchTerm] 해도 될까?")
+  utterance ("[g:PlayConch] 지금 (롤 한판)[v:SearchTerm] 해도 될까")
   plan (Y2BnUMitzEjMS9HLTUzPTE7Oz0vO0HMGkY6lKZn5nnlp+QzSmCoCchIrwaqI0K6KqcKpNDMnBU2ZDD6DsLnBLTMPYgY2rcGpiUXJGSGpRbkMbAyMDEwMzAwsDKxANgMSjxHMg2AGoCgjSB4A)
-  last-modified (1572193980201)
+  last-modified (1572236157645)
 }
