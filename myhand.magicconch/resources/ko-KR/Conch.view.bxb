@@ -9,7 +9,7 @@ result-view {
 		if(this.audioItem.id == 1){
 			template ("\"돼\"") {
 				// speech ("<speak><audio src=\"https://raw.githubusercontent.com/TKvl6/myhand.magicConch/master/myhand.magicconch/assets/audio/sure.mp3\"></audio></speak>")
-			speech ("")
+				speech ("")
 			}
 		}
 		else-if (this.audioItem.id == 2){
@@ -37,72 +37,114 @@ result-view {
 		layout {
 			section {
 				content {
-					image {
-						// url ("이미지~~~~")
-						url ("/images/init.png")
-					}
+					
 					switch (this.audioItem.id){
 						case (1){
+							image {
+								aspect-ratio(1:1)
+								url ("/images/yes.png")
+							}
 							paragraph{
 								style(Title_M)
 								value ("해도 된다고 하시네요!")
 							}
 						}
 						case (2){
+							image {
+								aspect-ratio(1:1)
+								url ("/images/say.png")
+							}
 							paragraph{
+								
 								style(Title_M)
 								value ("언젠진 모르겠지만...")
 							}
 						}
 						case (3){
+							image {
+								aspect-ratio(1:1)
+								url ("/images/again.png")
+							}
 							paragraph{
 								style(Title_M)
 								value ("다시 공손하게 여쭤보세요!")
 							}
 						}
 						case (4){
+							image {
+								aspect-ratio(1:1)
+								url ("/images/angry.png")
+							}
 							paragraph{
 								style(Title_M)
 								value ("아주 단호하게 안된다 하시네요..\n절대 하면 안되겠어요!")
 							}
 						}
 						case (5){
+							image {
+								aspect-ratio(1:1)
+								url ("/images/angry.png")
+							}
 							paragraph{
 								style(Title_M)
 								value ("안된답니다.")
 							}
 						}
 						case (6){
+							image {
+								aspect-ratio(1:1)
+								url ("/images/angry.png")
+							}
 							paragraph{
 								style(Title_M)
 								value ("그것도 안된답니다.")
 							}
 						}
 						case (7){
+							image {
+								aspect-ratio(1:1)
+								url ("/images/angry.png")
+							}
 							paragraph{
 								style(Title_M)
 								value ("안돼요. 안돼! \n아시겠죠?")
 							}
 						}
 						case (8){
+							image {
+								aspect-ratio(1:1)
+								url ("/images/angry.png")
+							}
 							paragraph{
 								style(Title_M)
 								value ("안돼요.")
 							}
 						}
 						case (9){
+							image {
+								aspect-ratio(1:1)
+								url ("/images/inangryit.png")
+							}
 							paragraph{
 								style(Title_M)
 								value ("안돼요. \n소라고동님의 말씀은 절대적이에요.")
 							}
 						}
 						case (10){
+							image {
+								aspect-ratio(1:1)
+								url ("/images/angry.png")
+							}
 							paragraph{
 								style(Title_M)
 								value ("가만히\n...")
 							}
 						}
 						default{
+							image {
+								aspect-ratio(1:1)
+								url ("/images/again.png")
+							}
 							paragraph{
 								style(Title_M)
 								value ("모지")
