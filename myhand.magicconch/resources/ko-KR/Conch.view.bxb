@@ -1,26 +1,36 @@
 result-view {
 	match : ConchAudioInfo (this)
-
+	
 	message {
 		///////////////////////
 		//      수정 필요     //
 		///////////////////////
 		
 		if(this.audioItem.id == 1){
-			template ()
-			template ("\"돼\"")
+			template ("\"돼\"") {
+				// speech ("<speak><audio src=\"https://raw.githubusercontent.com/TKvl6/myhand.magicConch/master/myhand.magicconch/assets/audio/sure.mp3\"></audio></speak>")
+			speech ("")
+			}
 		}
 		else-if (this.audioItem.id == 2){
-			template ("\"언젠가는 되겠지\"")
+			template ("\"언젠가는 되겠지\""){
+				speech ("")
+			}
 		}
 		else-if (this.audioItem.id == 3){
-			template ("\"다시 한번 물어봐\"")
+			template ("\"다시 한번 물어봐\""){
+				speech ("")
+			}
 		}
 		else-if (this.audioItem.id == 4){
-			template ("\"안\t\t돼\"" )
+			template ("\"안\t\t돼\"" ){
+				speech ("")
+			}
 		}
 		else{
-			template ("\"안 돼\"")
+			template ("\"안 돼\""){
+				speech ("")
+			}
 		}
 	}
 	render {
@@ -38,55 +48,55 @@ result-view {
 								value ("해도 된다고 하시네요!")
 							}
 						}
-            case (2){
+						case (2){
 							paragraph{
 								style(Title_M)
 								value ("언젠진 모르겠지만...")
 							}
 						}
-            case (3){
+						case (3){
 							paragraph{
 								style(Title_M)
 								value ("다시 공손하게 여쭤보세요!")
 							}
 						}
-            case (4){
+						case (4){
 							paragraph{
 								style(Title_M)
 								value ("아주 단호하게 안된다 하시네요..\n절대 하면 안되겠어요!")
 							}
 						}
-            case (5){
+						case (5){
 							paragraph{
 								style(Title_M)
 								value ("안된답니다.")
 							}
 						}
-            case (6){
+						case (6){
 							paragraph{
 								style(Title_M)
 								value ("그것도 안된답니다.")
 							}
 						}
-            case (7){
+						case (7){
 							paragraph{
 								style(Title_M)
 								value ("안돼요. 안돼! \n아시겠죠?")
 							}
 						}
-            case (8){
+						case (8){
 							paragraph{
 								style(Title_M)
 								value ("안돼요.")
 							}
 						}
-            case (9){
+						case (9){
 							paragraph{
 								style(Title_M)
 								value ("안돼요. \n소라고동님의 말씀은 절대적이에요.")
 							}
 						}
-            case (10){
+						case (10){
 							paragraph{
 								style(Title_M)
 								value ("가만히\n...")
