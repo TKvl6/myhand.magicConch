@@ -3,7 +3,7 @@ action (FindConch) {
   collect {
     input (searchTerm) {
       type (SearchTerm)
-      min (Optional) max (One)
+      min (Optional) max (Many)
     }
   }
   output (ConchAudio)

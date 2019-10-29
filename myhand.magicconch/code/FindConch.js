@@ -8,7 +8,7 @@ module.exports.function = function findConch(searchTerm) {
   var decisionVal = 0;
   var topic = '';
   var temp = Math.random();
-
+  searchTerm = searchTerm[0];
   console.log(temp)
 
   if(temp <= probability.yes){
