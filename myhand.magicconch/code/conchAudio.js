@@ -17,6 +17,20 @@ const audioItems = [
     id: 2,
     stream: [
       {
+        url: 'https://raw.githubusercontent.com/TKvl6/myhand.magicConch/master/myhand.magicconch/assets/audio/sure.mp3',
+        format: "mp3"
+      }
+    ],
+    title: '물론',
+    artist: '마법의 소라고동님',
+    subtitle: "Meow meow meow.",
+    artist: "Radi-claw",
+    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
+  },
+  {
+    id: 3,
+    stream: [
+      {
         url: 'https://raw.githubusercontent.com/TKvl6/myhand.magicConch/master/myhand.magicconch/assets/audio/someday.mp3',
         format: "mp3"
       }
@@ -28,7 +42,7 @@ const audioItems = [
     albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
   },
   {
-    id: 3,
+    id: 4,
     stream: [
       {
         url: 'https://raw.githubusercontent.com/TKvl6/myhand.magicConch/master/myhand.magicconch/assets/audio/question_again.mp3',
@@ -42,7 +56,7 @@ const audioItems = [
     albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
   },
   {
-    id: 4,
+    id: 5,
     stream: [
       {
         url: 'https://raw.githubusercontent.com/TKvl6/myhand.magicConch/master/myhand.magicconch/assets/audio/do_______nt.mp3',
@@ -56,7 +70,7 @@ const audioItems = [
     albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
   },
   {
-    id: 5,
+    id: 6,
     stream: [
       {
         url: 'https://raw.githubusercontent.com/TKvl6/myhand.magicConch/master/myhand.magicconch/assets/audio/dont.mp3',
@@ -70,7 +84,7 @@ const audioItems = [
     albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
   },
   {
-    id: 6,
+    id: 7,
     stream: [
       {
         url: 'https://raw.githubusercontent.com/TKvl6/myhand.magicConch/master/myhand.magicconch/assets/audio/dont_do_that_either.mp3',
@@ -84,7 +98,7 @@ const audioItems = [
     albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
   },
   {
-    id: 7,
+    id: 8,
     stream: [
       {
         url: 'https://raw.githubusercontent.com/TKvl6/myhand.magicConch/master/myhand.magicconch/assets/audio/little_long_dont.mp3',
@@ -98,7 +112,7 @@ const audioItems = [
     albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
   },
   {
-    id: 8,
+    id: 9,
     stream: [
       {
         url: 'https://raw.githubusercontent.com/TKvl6/myhand.magicConch/master/myhand.magicconch/assets/audio/short_dont.mp3',
@@ -112,7 +126,7 @@ const audioItems = [
     albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
   },
   {
-    id: 9,
+    id: 10,
     stream: [
       {
         url: 'https://raw.githubusercontent.com/TKvl6/myhand.magicConch/master/myhand.magicconch/assets/audio/short_low_dont.mp3',
@@ -126,7 +140,7 @@ const audioItems = [
     albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
   },
   {
-    id: 10,
+    id: 11,
     stream: [
       {
         url: 'https://raw.githubusercontent.com/TKvl6/myhand.magicConch/master/myhand.magicconch/assets/audio/stay_still.mp3',
@@ -140,11 +154,11 @@ const audioItems = [
     albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
   },
   {
-    id: 11,
+    id: 12,
     stream: [
       {
         url: 'https://raw.githubusercontent.com/TKvl6/myhand.magicConch/master/myhand.magicconch/assets/audio/both.mp3',
-              
+
         format: "mp3"
       }
     ],
@@ -155,7 +169,7 @@ const audioItems = [
     albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png",
   },
   {
-    id: 12,
+    id: 13,
     stream: [
       {
         url: 'https://raw.githubusercontent.com/TKvl6/myhand.magicConch/master/myhand.magicconch/assets/audio/starve.mp3',

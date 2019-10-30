@@ -19,4 +19,7 @@ capsule {
       as (audioPlayer)
     }
   }
+  store-sections{
+    section (GamesAndFun)
+  }
 }

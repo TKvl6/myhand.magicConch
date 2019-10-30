@@ -7,22 +7,26 @@ result-view {
 		///////////////////////
 		
 		if(this.audioItem.id == 1){
-			template ("\"돼\"") {
-				// speech ("<speak><audio src=\"https://raw.githubusercontent.com/TKvl6/myhand.magicConch/master/myhand.magicconch/assets/audio/sure.mp3\"></audio></speak>")
+			template ("\"그럼~\"") {
 				speech ("")
 			}
 		}
-		else-if (this.audioItem.id == 2){
-			template ("\"언젠가는 되겠지\""){
+		else-if(this.audioItem.id == 2){
+			template ("\"그럼~ 해도 되지\"") {
 				speech ("")
 			}
 		}
 		else-if (this.audioItem.id == 3){
-			template ("\"다시 한번 물어봐\""){
+			template ("\"언젠가는 되겠지\""){
 				speech ("")
 			}
 		}
 		else-if (this.audioItem.id == 4){
+			template ("\"다시 한번 물어봐\""){
+				speech ("")
+			}
+		}
+		else-if (this.audioItem.id == 5){
 			template ("\"안\t\t돼\"" ){
 				speech ("")
 			}
@@ -52,6 +56,16 @@ result-view {
 						case (2){
 							image {
 								aspect-ratio(1:1)
+								url ("/images/yes.png")
+							}
+							paragraph{
+								style(Title_M)
+								value ("해도 된다고 하시네요!")
+							}
+						}
+						case (3){
+							image {
+								aspect-ratio(1:1)
 								url ("/images/say.png")
 							}
 							paragraph{
@@ -60,7 +74,7 @@ result-view {
 								value ("언젠진 모르겠지만...")
 							}
 						}
-						case (3){
+						case (4){
 							image {
 								aspect-ratio(1:1)
 								url ("/images/again.png")
@@ -70,24 +84,14 @@ result-view {
 								value ("다시 공손하게 여쭤보세요!")
 							}
 						}
-						case (4){
-							image {
-								aspect-ratio(1:1)
-								url ("/images/angry.png")
-							}
-							paragraph{
-								style(Title_M)
-								value ("아주 단호하게 안된다 하시네요..\n절대 하면 안되겠어요!")
-							}
-						}
 						case (5){
 							image {
 								aspect-ratio(1:1)
 								url ("/images/angry.png")
 							}
 							paragraph{
-								style(Title_M)
-								value ("안된답니다.")
+								style(Title_S)
+								value ("아주 단호하게 안된다 하시네요..\n절대 하면 안되겠어요!")
 							}
 						}
 						case (6){
@@ -97,7 +101,7 @@ result-view {
 							}
 							paragraph{
 								style(Title_M)
-								value ("그것도 안된답니다.")
+								value ("안된답니다.")
 							}
 						}
 						case (7){
@@ -107,7 +111,7 @@ result-view {
 							}
 							paragraph{
 								style(Title_M)
-								value ("안돼요. 안돼! \n아시겠죠?")
+								value ("그것도 안된답니다.")
 							}
 						}
 						case (8){
@@ -117,20 +121,30 @@ result-view {
 							}
 							paragraph{
 								style(Title_M)
-								value ("안돼요.")
+								value ("안돼요. 안돼! \n아시겠죠?")
 							}
 						}
 						case (9){
 							image {
 								aspect-ratio(1:1)
-								url ("/images/inangryit.png")
+								url ("/images/angry.png")
+							}
+							paragraph{
+								style(Title_M)
+								value ("안돼요.")
+							}
+						}
+						case (10){
+							image {
+								aspect-ratio(1:1)
+								url ("/images/angry.png")
 							}
 							paragraph{
 								style(Title_M)
 								value ("안돼요. \n소라고동님의 말씀은 절대적이에요.")
 							}
 						}
-						case (10){
+						case (11){
 							image {
 								aspect-ratio(1:1)
 								url ("/images/angry.png")

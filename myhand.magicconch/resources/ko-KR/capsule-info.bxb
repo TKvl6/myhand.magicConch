@@ -1,14 +1,16 @@
 capsule-info {
-  display-name (마법의소라고동)
+  display-name (마법의 소라고동)
   developer-name (SSAFY MH)
   icon-asset (/images/logo.png)
   description ("마법의 소라고동이 당신의 고민을 해결해줍니다!")
   website-url (https://github.com/TKvl6/myhand.magicConch/tree/master/myhand.magicconch)
   search-keywords {
-    keyword (마법의소라고동)
+    keyword (마법의 소라고동)
     keyword (고민해결)
+    keyword (마법의 소라고 동)
+    keyword (소라고동)
   }
-  dispatch-name (마법의소라고동)
+  dispatch-name (마법의 소라고 동)
   dispatch-aliases{
 
   }
