@@ -4,6 +4,7 @@ capsule-info {
   icon-asset (/images/logo.png)
   description ("마법의 소라고동이 당신의 고민을 해결해줍니다!")
   website-url (https://github.com/TKvl6/myhand.magicConch/tree/master/myhand.magicconch)
+  privacy-policy-url (https://github.com/TKvl6/myhand.magicConch/blob/master/myhand.magicconch/privacy-policy.md)
   search-keywords {
     keyword (마법의 소라고동)
     keyword (고민해결)
